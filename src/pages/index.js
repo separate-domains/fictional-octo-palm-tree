@@ -13,7 +13,7 @@ const IndexPage = ({ data: { allInstaNode } }) => (
 
 export const pageQuery = graphql`
   query ScrapingQuery {
-    allInstaNode(filter: { username: { eq: "hi_sseulgi" } }, sort: {order: DESC, fields: timestamp}) {
+    allInstaNode(filter: { username: { eq: "sooyaaa__" } }, sort: {order: DESC, fields: timestamp}) {
       edges {
         node {
           id
